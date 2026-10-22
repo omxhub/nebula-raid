@@ -1,16 +1,22 @@
-# React + Vite
+# NEBULA RAID v2 - Orbital Strike Vanguard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An original top-down 2.5D vertical-scrolling arcade shooter built with React 19, Vite, HTML5 Canvas, and WebAudio synthesis.
 
-Currently, two official plugins are available:
+## Features
+- **2.5D Layered Visual Engine**: Multi-layer scrolling environments, elevated atmospheric platforms, altitude drop-shadows, beveled metallic hulls, rotating anti-aircraft turrets, volumetric shockwaves, and translucent cloud veils.
+- **3 Strike Interceptors**: `NV-01 Valkyrie` (Balanced Interceptor), `NV-04 Seraph` (Rapid-Fire Vector), and `NV-09 Hyperion` (Heavy Gunship).
+- **3 Combat Sectors & Multi-Part Dreadnought Bosses**:
+  - `Sector 01: Azure Refinery` (`Aero-Carrier Kronos`)
+  - `Sector 02: Helios Foundry` (`Vulcan Siege-Cruiser`)
+  - `Sector 03: Astral Citadel` (`Sovereign Aegis-IX`)
+  - Each boss features independent destructible Port/Starboard wing batteries and a central Omega Reactor Core.
+- **Orbital Tech Hangar & Medal Progression**: Collect Nebula Cores (`★`) to permanently upgrade `Pulse Cannon`, `Wingpod Turrets`, `Aegis Plating`, `Grav-Tractor`, and `Nova Overdrive`, and earn 4 commendation medals per sector (`100% Hostiles`, `Core Harvest`, `Untouched Hull`, `Apex Hunter`).
+- **100% Original Procedural Assets**: Custom SVG crest logo, procedural canvas aircraft/turret/boss geometry, and real-time WebAudio synthesized SFX.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Development
+```bash
+npm install
+npm run dev
+npm run lint
+npm run build
+```
